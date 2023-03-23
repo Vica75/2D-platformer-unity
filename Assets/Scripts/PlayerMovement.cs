@@ -63,6 +63,6 @@ public class PlayerMovement : MonoBehaviour
 
     public bool CanAttack()
     {
-        return horizontalInput == 0 && IsGrounded();
+        return true;  // horizontalInput == 0 && IsGrounded();
     }
 }
